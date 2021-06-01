@@ -5,7 +5,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 weburl = os.getenv('WEB_URL')
-
+time.sleep(10)
 check=1
 while(check>0):
     gChromeOptions = webdriver.ChromeOptions()
