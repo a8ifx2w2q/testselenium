@@ -1,1 +1,1 @@
-worker: pip install -r requirements.txt && python start.py
+worker: python start.py & python start2.py
