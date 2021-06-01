@@ -1,0 +1,24 @@
+{
+	"name": "Selenium",
+	"description": "Selenium Testiing",
+	"repository": "https://github.com/t55xddb4w/deploy",
+	"keywords": ["selenium"],
+	"env": {
+		"WEB_URL": {
+         "description": "The URL OF WEBSITE",
+         "required": true,
+         "value": "https://index.strongerdc.ml"
+      }
+	},
+	"buildpacks": [
+		      {
+			"url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+		},
+    {
+			"url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+		},
+    {
+			"url": "heroku/python"
+		}
+	]
+}
