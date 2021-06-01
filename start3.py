@@ -19,5 +19,5 @@ while(check>0):
     gDriver.get(weburl)
     time.sleep(600)
     gDriver.close()
-    print("Times Run (incognito) = ", check)
+    print("Times Run (incognito2) = ", check)
     check=check+1
