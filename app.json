@@ -1,7 +1,6 @@
 {
 	"name": "Selenium",
 	"description": "Selenium Testiing",
-	"repository": "https://github.com/t55xddb4w/deploy",
 	"keywords": ["selenium"],
 	"env": {
 		"WEB_URL": {
